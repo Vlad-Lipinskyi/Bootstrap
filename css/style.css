@@ -154,4 +154,23 @@ box-sizing: border-box;
     justify-content: center;
 }
 
+.modal-link{
+    color: white;
+}
+
+.carousel-inner{
+    width: 1000px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.slider-text{
+    font-family: 'Kanit';
+    font-weight: 900;
+    font-size: 40px;
+}
+
 
