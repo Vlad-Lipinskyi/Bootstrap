@@ -1,0 +1,157 @@
+.header{
+    background-color: white;
+    padding: 30px 0 30px 0;
+}
+
+.nav{
+    gap: 50px;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Oswald';
+    font-size: 26px;
+    font-weight: 900;
+    background-color: transparent;
+    border: none;
+    transition: color 300ms ease-in-out;
+    position: relative;
+}
+
+.header-link-main:hover, .header-link-shop:hover{
+    color: #008cff;
+}
+
+.hero{
+    padding: 200px 0 200px 30px;
+    background: rgb(0,0,0);
+background: linear-gradient(125deg, rgba(0,0,0,1) 0%, rgba(0,140,255,1) 100%);
+position: relative;
+}
+
+.text-hero{
+    font-family: 'Kanit';
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 650px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 47px;
+    background-color: #008cff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.btn{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 50px 5px 50px;
+}
+
+.button-link{
+text-align: center;
+    font-family: 'Roboto';
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.v-bucks{
+position: absolute;
+top: 0;
+width: 650px;
+right: 0;
+}
+
+.advantages-title{
+    font-family: 'Kanit';
+    font-weight: 700;
+    margin-top: 40px;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.advantages-list{
+display: flex;
+gap: 100px;
+justify-content: center;
+}
+
+.advantages-box{
+    width: 250px;
+    height: 330px;
+    background-color: transparent;
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/10px 10px no-repeat,
+            radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/10px 10px no-repeat,
+            radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/10px 10px no-repeat,
+            radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/10px 10px no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 14px) calc(100% - 20px) no-repeat,
+            linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 20px) calc(100% - 14px) no-repeat,
+            repeating-conic-gradient(#000000 0%, #008cff 5%, #000000 5%, #008cff 10%);
+border-radius: 10px;
+padding: 17px;
+box-sizing: border-box;
+}
+
+.advantages-text{
+    font-family: 'Kanit';
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 650px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.advantages-subtitle{
+    font-family: 'Kanit';
+    color: black;
+    font-size: 27px;
+    font-weight: 700;
+    max-width: 650px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    max-width: 180px;
+}
+
+.shop{
+    padding: 70px 15px 70px 15px;
+    text-align: center;
+}
+
+.shop-title{
+    margin-bottom: 50px;
+}
+
+.col{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
